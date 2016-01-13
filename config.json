@@ -1,0 +1,12 @@
+{
+    "apiVersion": "v1.0.0",
+    "urlPrefix": "/rest",
+    "port": 3001,
+    "brand": "My Company",
+    "appname": "react-ui-material-archetype",
+    "loginCredentials": {
+        "user": "username",
+        "pass": "password"
+    },
+    "useServer" : false
+}

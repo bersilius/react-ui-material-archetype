@@ -1,0 +1,108 @@
+# This is a configuration file for the kickoff utility
+description: |
+    This is a project archetype for a ReactJs based web frontend application.
+    New projects can be generated from this archetype by the
+    [kickoff](https://github.com/tombenke/kickoff) utility.
+
+welcome: >
+
+    You are generating a ReactJs web frontend application.
+
+postscript: >
+
+    Next steps:
+
+    1. Install the npm modules required by the newly generated application:
+
+           cd <dest-folder>
+           npm install
+
+    2. To create the dist package, run either:
+
+           npm run browserify
+
+       or
+
+           npm run watch
+
+questions:
+    # A question object is a hash containing question related values:
+    - 
+        # type: (String)
+        # Type of the prompt.
+        # Defaults: input - Possible values: input, confirm, list
+        type: input
+
+        # name: (String)
+        # The name to use when storing the answer in the answers' hash.
+        name: appname
+
+        # message: (String)
+        # The question to print.
+        message: The name of the application
+
+        # default: (String|Number|Array)
+        # Default value(s) to use if nothing is entered.
+        default: anonymous
+
+    -
+        type: input
+        name: app_description
+        message: The short description of the application
+        default: This is a ReactJs frontend application
+
+    -
+        type: input
+        name: author_full_name
+        message: The full name of the author of the application
+        default: Anonymous
+
+    -
+        type: input
+        name: author_email
+        message: The email address of the author
+        default: anonymous@some-domain.com
+
+    -
+        type: input
+        name: author_github_account
+        message: The github account (username) of the author
+        default: anonymous
+
+    -
+        type: input
+        name: port
+        message: The port number where the server will listen for requests
+        default: 3001
+
+
+    -
+        type: input
+        name: brand
+        message: The brand of the product owner
+        default: My Company
+
+    -
+        type: input
+        name: documentRoot
+        message: The relative or absolute path of the document root folder for static content
+        default: "../webui"
+
+    -
+        type: input
+        name: urlPrefix
+        message: The URL prefix of the REST API provided by the server
+        default: "/rest"
+
+    -
+        type: input
+        name: apiVersion
+        message: The version of the REST API provided by the server
+        default: "v1.0.0"
+
+converters:
+    handlebars:
+        - package.json
+        - README.md
+        - config.json
+        - dist/index.html
