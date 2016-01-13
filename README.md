@@ -1,14 +1,14 @@
 ## About
 
-'This is a template project for ReactJS frontend applications that use Material-UI components'
+This is a template project for ReactJS frontend applications that use Material-UI components
 
 The features built into this projects:
 
-- ReactJS, with ES6 support (babel)
+- [React](https://facebook.github.io/react/), with JSX and ES6 support ([babel](https://github.com/babel/babelify))
 - react router
 - [Material-UI](http://material-ui.com/)
-- Themes
-- Flux
+- [Themes](http://www.material-ui.com/#/customization/themes) support
+- [Flux](https://facebook.github.io/react/docs/flux-overview.html)
 - Stores
 - REST proxy layer
 - sample pages
@@ -17,9 +17,9 @@ The features built into this projects:
    - info page (cards)
    - list with items
    - form
-- static code analizer: jshint, eslint
+- static code analizer: [jshint](http://jshint.com/), [eslint](http://eslint.org)
 - build and QA commands directly with npm:
-    eslint, lint, watch, browserify, build, test
+    eslint, lint, watch, [browserify](http://browserify.org/), build, test
 
 
 ## Usage
@@ -102,7 +102,16 @@ Also need to set properly the `.eslintrc` file
 - Cordova
 
 ## References
-[http://www.material-ui.com/](http://www.material-ui.com/)
 
-[ESLint - The pluggable linting utility for JavaScript and JSX](http://eslint.org)
-[mocha-eslint - run ESLint as mocha tests](https://www.npmjs.com/package/mocha-eslint)
+- [React](https://facebook.github.io/react/)
+- [Flux](https://facebook.github.io/react/docs/flux-overview.html)
+
+- [Material-UI](http://material-ui.com/)
+- [Themes](http://www.material-ui.com/#/customization/themes)
+
+- [babelify](https://github.com/babel/babelify)
+- [browserify](http://browserify.org/)
+
+- [jshint](http://jshint.com/)
+- [ESLint - The pluggable linting utility for JavaScript and JSX](http://eslint.org)
+- [mocha-eslint - run ESLint as mocha tests](https://www.npmjs.com/package/mocha-eslint)
