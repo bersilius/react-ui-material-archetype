@@ -4,10 +4,12 @@
 
 The features built into this projects:
 
-- ReactJS, with ES6 transpiler
+- ReactJS, with ES6 support (babel)
 - react router
 - [Material-UI](http://material-ui.com/)
-- stores with local store handling
+- Themes
+- Flux
+- Stores
 - REST proxy layer
 - sample pages
    - navigation header
@@ -50,9 +52,6 @@ or
 The results will appear under the `dist` folder.
 You can start using it by opening the `dist/index.html` page with a browser, or start a http server (such as [http-server](https://www.npmjs.com/package/http-server)) which serves the `dist` folder as static resources.
 
-## What is in the project template
-
-
 ## Static code analysis
 
 For linter you need to install `eslint` and `babel-eslint`
@@ -76,6 +75,31 @@ Also need to set properly the `.eslintrc` file
         }
     }
 
+## Planned features and modifications
+
+- tests
+    - component (unit) tests
+    - integration test
+
+-  Localstore adapter for stores
+
+- form validation
+    - https://github.com/mbrookes/formsy-material-ui
+    - https://github.com/christianalfoni/formsy-react
+    - https://www.npmjs.com/package/validator
+
+- event driven action pipeline
+    - Actions (Events) with persistent event store (FIFO)
+    - synchronizer module
+    - state-machine and sync alert
+        on-line
+        off-line
+    - event transfer channel
+    - client-side dispatcher
+
+- sass/css styling, customization
+
+- Cordova
 
 ## References
 [http://www.material-ui.com/](http://www.material-ui.com/)
