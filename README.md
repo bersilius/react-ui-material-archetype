@@ -1,3 +1,6 @@
+react-ui-material-archtype
+==========================
+
 ## About
 
 This is a template project for ReactJS frontend applications that use Material-UI components
@@ -105,13 +108,10 @@ Also need to set properly the `.eslintrc` file
 
 - [React](https://facebook.github.io/react/)
 - [Flux](https://facebook.github.io/react/docs/flux-overview.html)
-
 - [Material-UI](http://material-ui.com/)
 - [Themes](http://www.material-ui.com/#/customization/themes)
-
 - [babelify](https://github.com/babel/babelify)
 - [browserify](http://browserify.org/)
-
 - [jshint](http://jshint.com/)
 - [ESLint - The pluggable linting utility for JavaScript and JSX](http://eslint.org)
 - [mocha-eslint - run ESLint as mocha tests](https://www.npmjs.com/package/mocha-eslint)
